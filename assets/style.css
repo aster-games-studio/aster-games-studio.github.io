@@ -134,6 +134,18 @@ li { margin: .35em 0; }
 }
 .screens img { border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, .18); }
 
+/* Guide des testeurs : encadré « c'est normal » et captures légendées. */
+.note {
+  margin: 14px 0;
+  padding: 12px 16px;
+  background: #fbf3e2;
+  border-left: 4px solid var(--brass);
+  border-radius: 0 8px 8px 0;
+}
+.shot { margin: 16px auto 22px; max-width: 300px; text-align: center; }
+.shot img { border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, .18); }
+.shot figcaption { margin-top: 8px; color: var(--muted); font-size: .9rem; }
+
 .store { margin: 24px 0; }
 .button {
   display: inline-block;
